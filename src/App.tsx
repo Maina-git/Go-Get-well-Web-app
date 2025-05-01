@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import {Theme} from '@/components/template/Theme'
+import Theme from './components/template/Theme'
 import Layout from '@/components/layouts'
 import { AuthProvider } from '@/auth'
 import Views from '@/views'

@@ -21,3 +21,16 @@ export type Theme = {
         previousType?: LayoutType | ''
     }
 }
+
+export type ThemeType = {
+    themeSchema: string
+    direction: Direction
+    mode: Mode
+    panelExpand: boolean
+    layout: {
+        type: LayoutType
+        sideNavCollapse: boolean
+    }
+}
+
+
