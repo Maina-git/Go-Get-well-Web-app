@@ -6,7 +6,7 @@ import useLocale from '@/utils/hooks/useLocale'
 import useDirection from '@/utils/hooks/useDirection'
 import type { CommonProps } from '@/@types/common'
 
-const Theme = (props: CommonProps) => {
+export const Theme = (props: CommonProps) => {
     useTheme()
     useDarkMode()
     useDirection()
@@ -25,4 +25,4 @@ const Theme = (props: CommonProps) => {
     )
 }
 
-export default Theme
+//export default Theme
